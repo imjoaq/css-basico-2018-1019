@@ -28,23 +28,30 @@ Si el padre tiene z-index declarado no podremos poner a un hijo por encima.
 
 .box2{
     background: darkkhaki;
-    top: -38px;
-    left: 38px;
+    top: -25px;
+    left: 25px;
     z-index: 20;
 }
 
 .box3{
     background:darkorchid;
-    top: -75px;
-    left: 75px;
+    top: -50px;
+    left: 50px;
     z-index: 10;
 }
 
 .box4{
     background: darkgoldenrod;
-    top: -150px;
-    left: 50px;
-    z-index: 15;
+    top: -75px;
+    left: 75px;
+    z-index: 5;
+}
+
+.box5{
+    background: lightgreen;
+    top: -100px;
+    left: 100px;
+    z-index: 1;
 }
 
 .padre{

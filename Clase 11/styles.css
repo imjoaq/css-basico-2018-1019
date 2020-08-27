@@ -15,49 +15,90 @@ Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid black;
+    border: 5px solid black;
     position: relative;
 }
 
-[class^=box] {
+[class*=box]{
     width: 50px;
     height: 50px;
 }
 
-.box1 {
-    border: 4px solid lightcoral;
+.box1{
+    border: 4px solid red;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.box2 {
+.box2{
     border: 4px solid blue;
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.box3 {
-    border: 4px solid green;
+.box3{
+    border: 4px solid cyan;
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.box4 {
-    border: 4px solid lightseagreen;
+.box4{
+    border: 4px solid purple;
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.box5 {
-    border: 4px solid darkorange;
+.box5{
+    border: 4px solid cadetblue;
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
+    left: 0;
     margin: auto;
 }
+
+.box6{
+    border: 4px solid black;
+    position: absolute;
+    top: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box7{
+    border: 4px solid lime;
+    position: absolute;
+    top: 0;
+    right: 1;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.box8{
+    border: 4px solid palevioletred;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1;
+    left: 0;
+    margin: auto;
+}
+
+.box9{
+    border: 4px solid aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 1;
+    margin: auto;
+}
+z
